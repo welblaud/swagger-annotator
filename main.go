@@ -5,7 +5,8 @@ import (
 	"fmt"
 	"os"
 	"os/exec"
-	"swagger-annotator/internal/annotation"
+
+	"github.com/welblaud/swagger-annotator/internal/annotation"
 )
 
 func main() {
