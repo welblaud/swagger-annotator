@@ -1,3 +1,3 @@
-module swagger-annotator
+module github.com/welblaud/swagger-annotator
 
-go 1.24
+go 1.21
