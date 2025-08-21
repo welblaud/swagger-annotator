@@ -30,7 +30,7 @@ func main() {
 		if len(out) > 0 {
 			_, _ = fmt.Fprintln(os.Stderr, "annotation check failed: uncommitted changes found")
 			_, _ = fmt.Fprintln(os.Stderr, string(out))
-			os.Exit(2)
+			os.Exit(1)
 		}
 	default:
 		_, _ = fmt.Fprintf(os.Stderr, "invalid mode: %s\n", *mode)
